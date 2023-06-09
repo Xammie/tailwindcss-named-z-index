@@ -1,0 +1,16 @@
+{
+  "name": "tailwindcss-named-z-index",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Xammie/tailwindcss-named-z-index.git",
+  "author": "Max Hoogenbosch <max@hoogenbos.ch>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "scripts": {
+    "dev": "tailwindcss -i ./style.css -o ./out.css --watch",
+    "build": "tailwindcss -i ./style.css -o ./out.css"
+  }
+}
