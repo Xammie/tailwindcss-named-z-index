@@ -14,8 +14,8 @@ it('named z-index', () => {
         ],
         theme: {
             zIndexLayers: [
-                'banner',
                 'popup',
+                'banner',
                 'header',
             ],
         },
@@ -29,13 +29,13 @@ it('named z-index', () => {
     return run(input, config).then((result) => {
         expect(result.css).toMatchFormattedCss(css`
       .z-banner {
-        z-index: 3;
+        z-index: 20;
       }
       .z-header {
-        z-index: 1;
+        z-index: 10;
       }
       .z-popup {
-        z-index: 2;
+        z-index: 30;
       }
     `)
     })
