@@ -18,14 +18,19 @@ yarn add tailwindcss-named-z-index
 module.exports = {
     theme: {
         zIndexLayers: [
-            'header',   // z-index: 40
-            'sidebar',  // z-index: 30
+            'header',  // z-index: 30
             'modal',    // z-index: 20
             'dropdown', // z-index: 10
         ]
     },
     plugins: [require('tailwindcss-named-z-index')],
 }
+```
+
+```html
+<div class="z-header"></div>
+<div class="z-sidebar"></div>
+<div class="z-dropdown"></div>
 ```
 
 ## Credits
