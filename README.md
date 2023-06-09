@@ -12,7 +12,7 @@
 > This plugin is still in development
 
 By default, tailwindcss has numbered z-indexes (`z-10`, `z-20`, `z-30`, etc.).
-This plugin allows you to use named z-indexes instead which have a index based on the position in the array.
+This plugin allows you to use named z-indexes instead which have an index based on the position in the array.
 The first layer in the array will have the highest z-index.
 
 ## Installation
