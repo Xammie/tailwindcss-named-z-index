@@ -3,6 +3,7 @@
 </h1>
 
 <p align="center">
+    <a href="https://github.com/xammie/tailwindcss-named-z-index/actions"><img src="https://img.shields.io/github/actions/workflow/status/xammie/tailwindcss-named-z-index/nodejs.yml?branch=master" alt="Build Status"></a>
     <a href="https://www.npmjs.com/package/tailwindcss-named-z-index"><img src="https://img.shields.io/npm/dt/tailwindcss-named-z-index.svg" alt="Total Downloads"></a>
     <a href="https://github.com/xammie/tailwindcss-named-z-index/releases"><img src="https://img.shields.io/npm/v/tailwindcss-named-z-index.svg" alt="Latest Release"></a>
     <a href="https://github.com/Xammie/tailwindcss-named-z-index/blob/master/LICENSE.md"><img src="https://img.shields.io/npm/l/tailwindcss-named-z-index.svg" alt="License"></a>
